@@ -1,14 +1,14 @@
-# EB_Linkedin 
+# EB_LinkedIn 
 
 This small ruby program uses the Eventbrite and LinkedIn APIs to pull in LinkedIn profile data for Eventbrite registrants. 
 
-## Getting Started - Registering with Linkedin and Eventbrite
+## Getting Started - Registering with LinkedIn and Eventbrite
 
 
 #### LinkedIn API
 
 
-In order to access the Linkedin API, you'll need to get an API key. To do so you have to create a LinkedIn app by visiting (https://www.linkedin.com/secure/developer) and registering your "app". Once you've registered you will be assigned an "API Key" and a Secret Key. See below for an example.
+In order to access the LinkedIn API, you'll need to get an API key. To do so you have to create a LinkedIn app by visiting (https://www.linkedin.com/secure/developer) and registering your "app". Once you've registered you will be assigned an "API Key" and a Secret Key. See below for an example.
 
 ![Screenshot](https://raw.github.com/rasheqrahman/eb_linkedin/master/linkedin_secret_key.png)
 
@@ -16,7 +16,7 @@ Be sure to enter the API key in the field marked "api_key" and the Secret Key in
 
 Once you've update the api_key and api_secret you can run the file -> linkedin.authorization.rb in a command line program like Mac OSX Terminal.
 
-When the file runs, you'll be prompted to copy a custom URL into your browser. This URL will take you to the LinkedIn OAuth tool where you'll enter your Linkedin username/password. Once authenticated, you'll be given a numeric code (pin number) to enter in the command line, this will return a set of four variables which you should cut and paste into the top of the config.yml file. These variables are:
+When the file runs, you'll be prompted to copy a custom URL into your browser. This URL will take you to the LinkedIn OAuth tool where you'll enter your LinkedIn username/password. Once authenticated, you'll be given a numeric code (pin number) to enter in the command line, this will return a set of four variables which you should cut and paste into the top of the config.yml file. These variables are:
 
 ``` ruby
 api_key: 
@@ -27,7 +27,7 @@ api_secret_authorized:
 
 While you're in the config.yml file you should edit the 'file_prefix' variable. This variable is used to name the pdf and html files that are generated when the main eb-linkedin.rb program is run. I've put a name that I use when I run the script for your reference.
 
-Finally, you'll want to decide which fields to pull from the LinkedinAPI. The list of fields is at (https://developer.linkedin.com/documents/profile-fields). Remember in many cases you'll be pulling fields from people you are not directly connected to so you'll be limited to pulling only data that is in the LinkedIn Public profile (the profile you can see without being connected to an individual.) I've included the fields I use in the eb-linkedin.rb file but any valid field should work.
+Finally, you'll want to decide which fields to pull from the LinkedIn API. The list of fields is at (https://developer.linkedin.com/documents/profile-fields). Remember in many cases you'll be pulling data from profiles of people you are not directly connected to so you'll be limited to pulling only data that is in the LinkedIn Public profile (the profile you can see without being connected to an individual). I've included the fields I used in the eb-linkedin.rb program but any valid field should work.
 
 #### Eventbrite API
 
@@ -39,7 +39,7 @@ Finally you'll need to enter the event ID. You can look up your event id by clic
 #### Eventbrite setup
 
 
-While the eb-linkedin.rb program uses mainly standard Eventbrite fields, in order to pull in the Linkedin data, you will have to create a registration question asking for the user's bio/Linkedin public profile URL. In the eb-linkedin.rb program, this field is the second question asked hence the index in line 41 is 1.
+While the eb-linkedin.rb program uses mainly standard Eventbrite fields, in order to pull in the LinkedIn data, you will have to create a registration question asking for the user's bio/LinkedIn public profile URL. In the eb-linkedin.rb program, this field is the second question asked hence the index in line 41 is 1.
 	
 #### Running the EB-LinkedIn Program
 
