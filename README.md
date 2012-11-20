@@ -10,7 +10,7 @@ This small ruby program uses the Eventbrite and LinkedIn APIs to pull in LinkedI
 
 In order to access the Linkedin API, you'll need to get an API key. To do so you have to create a LinkedIn app by visiting (https://www.linkedin.com/secure/developer) and registering your "app". Once you've registered you will be assigned an "API Key" and a Secret Key. See below for an example.
 
-![Screenshot](https://raw.github.com/rasheqrahman/eb_linkedin/blob/master/linkedin_secret_key.png)
+![Screenshot](https://raw.github.com/rasheqrahman/eb_linkedin/master/linkedin_secret_key.png)
 
 Be sure to enter the API key in the field marked "api_key" and the Secret Key in the field marked "api_secret" in the file entitled linkedin.authorization.rb.
 
