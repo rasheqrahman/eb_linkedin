@@ -1,0 +1,14 @@
+# Fill in the values you were assigned after registering your app using the linkedin.authorization.rb script.
+api_key: 
+api_secret: 
+api_token_authorized: 
+api_secret_authorized: 
+
+# Names of input, output and pdf file names. For simplicity they all have the same prefix defined by the 'file_prefix' variable
+file_prefix: "linkedinprofiles" # You can edit this prefix but make sure that the file containing the profile URLs to be read starts with this prefix and ends with .rb
+
+LinkedIn_profile_fields: ['id','first-name','last-name','summary','public-profile-url', 'picture-url', 'positions']
+
+eb_app_key: 
+eb_user_key: 
+eb_event_id: 
