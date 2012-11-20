@@ -1,8 +1,8 @@
-## EB_Linkedin 
+# EB_Linkedin 
 
 This small ruby program uses the Eventbrite and LinkedIn APIs to pull in LinkedIn profile data for Eventbrite registrants. 
 
-### Getting Started - Registering with Linkedin and Eventbrite
+## Getting Started - Registering with Linkedin and Eventbrite
 
 
 #### LinkedIn API
