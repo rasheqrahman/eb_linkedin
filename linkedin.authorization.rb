@@ -1,4 +1,4 @@
-# /Users/rasheqrahman/.rvm/rubies/ruby-1.9.3-p194/bin/ruby
+# /Users/<username>/.rvm/rubies/ruby-1.9.3-p194/bin/ruby
 
 require 'rubygems'
 require 'linkedin'
