@@ -54,4 +54,4 @@ ruby eb-linkedin.rb
 
 #### Questions?
 
-If you have questions about this script, please don't hesitate to email me at rasheqrahman [dot] tygrlabs [dot] com.
+If you have questions about this script, please don't hesitate to email me at rasheqrahman [dot] gmail [dot] com.
